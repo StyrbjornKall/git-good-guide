@@ -1,5 +1,16 @@
 # Git good guide - from noob to ai bro
 
+## If you just cloned this for using for a personal project
+Then you should probably rename the venvs name and write a description in the `pyproject.toml` file.
+
+```toml
+[project]
+name = "git-good-guide" # Rename this (it will be the name of your venv)
+version = "0.1.0"
+description = "Add your description here" # Write something meaningful here
+...
+```
+
 ## Background
 
 you are noob. wanna git good? yeah, me too. Agent mode may be here to stay and help you with your daily work, but how can we help copilot do its best? And how can we at the same time become better coders?
@@ -29,7 +40,7 @@ The clean, tool-agnostic way is an editable install.
 
 Add this to pyptoject.toml
 
-```
+```toml
 [build-system]
 requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
